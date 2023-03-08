@@ -1,4 +1,4 @@
-To run:
+# Instructions to run the project
 
 Clone the project
 
