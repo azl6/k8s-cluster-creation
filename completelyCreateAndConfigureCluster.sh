@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ -f ./ips.txt ]]; then rm ips.txt && touch ips.txt; fi
+if [[ -f ./ips.txt ]]; then rm ips.txt && touch ips.txt; else touch ips.txt; fi
 
 terraform apply -auto-approve
 
