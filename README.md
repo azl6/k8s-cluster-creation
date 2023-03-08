@@ -14,5 +14,7 @@ This project also assumes that the SSH key that will be used for the 3 nodes is 
 
 If you don't have that, I suggest creating an aws_key_pair resource in Terraform and link it with your EC2 instance resources, or manually create a SSH key in AWS
 
+Also, the project also assumes that you have your AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEYS env variables setted up. The easiest way to do so is to use the `export` command, however, if you prefer, you can also use `aws configure`
+
 Have fun! That was a pretty fun project to do.
 
