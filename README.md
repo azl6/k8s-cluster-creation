@@ -4,7 +4,7 @@ Clone the project
 
 Init the directory with `terraform init`
 
-Run `chmod 400 chaveClusterKubernetes`
+Run `chmod 400 arquivos-criação-cluster/chaveClusterKubernetes`
 
 Run the script called **completelyCreateAndConfigureCluster.sh**. 
 
