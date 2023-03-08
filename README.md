@@ -4,6 +4,8 @@ Clone the project
 
 Init the directory with `terraform init`
 
+Run `chmod 400 chaveClusterKubernetes`
+
 Run the script called **completelyCreateAndConfigureCluster.sh**. 
 
 This script will create a cluster with 3 nodes: 1 Master-node and 2 Worker-nodes in AWS EC2 instances of t2.micro size. The joins will already be done and there will already be Weave-net installed working as a CNI for the cluster.
