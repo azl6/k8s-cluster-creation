@@ -2,6 +2,8 @@
 
 Clone the project.
 
+Run `aws configure` and configure your AWS credentials and region
+
 Init the directory with `terraform init`
 
 Create a key-pair in AWS named **chaveClusterKubernetes**, and insert the private-key in the `arquivos-criação-cluster` folder
