@@ -6,7 +6,7 @@ Init the directory with `terraform init`
 
 Run `chmod 400 arquivos-criação-cluster/chaveClusterKubernetes`
 
-This project assumes that the SSH key that will be used for the 3 nodes is already created, with the name **chaveClusterKubernetes**. If you don't have that, I suggest creating an aws_key_pair resource in Terraform and link it with your EC2 instance resources, or manually create a SSH key in AWS.
+Create a key-pair in AWS named **chaveClusterKubernetes**, and insert the private-key in 
 
 Run the script called **completelyCreateAndConfigureCluster.sh**. 
 
